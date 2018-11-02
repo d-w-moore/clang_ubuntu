@@ -17,5 +17,8 @@ RUN apt update && apt install -y \
   echo 'export PATH=/clang_'${VERSION}'/bin:$PATH' >> ~/.bashrc && \
   echo 'export LD_LIBRARY_PATH=/clang_${VERSION}/lib:$LD_LIBRARY_PATH' >> ~/.bashrc
 
+# Install Text Editors
+RUN apt update && apt install -y vim nano && rm -rf /var/lib/apt/lists/*
+
 # Start from a Bash prompt
 CMD [ "/bin/bash" ]
