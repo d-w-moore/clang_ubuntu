@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 
-#ENV VERSION 7.0.0
-ENV VERSION 6.0.1
+ENV VERSION 7.0.0
+#ENV VERSION 6.0.1
 
 # Make sure the image is updated, install some prerequisites,
 # Download the latest version of Clang (official binary) for Ubuntu
