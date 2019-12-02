@@ -1,3 +1,3 @@
 # clang_ubuntu
 
-![an image](Untitled Diagram.png)
+![an image](./Untitled_Diagram.png)
